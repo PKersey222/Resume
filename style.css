@@ -1,6 +1,9 @@
 .container { 
-    grid-template-columns: 0.25fr .75fr;
-    grid-template-rows: 20% repeat(10%,8);
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+   
+    
     grid-template-areas:
       "picture personal-information"
       "experience-header virgin-atlantic-airlines1"
@@ -13,14 +16,45 @@
       "... ..."
 }
 
-.picture {
+#picture {
   grid-area: picture;
 }
 
-.personal-information {
+#personal-information {
   grid-area: personal-information;
 }
 
-.information-labels {
+#experience-header {
+  grid-area: experience-header;
+}
+
+#experience {
+  grid-area: experience;
+}
+
+#education {
   grid-area: information-labels;
+}
+
+#additional-qualifications-header {
+  grid-area: additional-qualifications-header;
+}
+
+#additional-qualifications {
+  grid-area: additional-qualifications;
+}
+
+#honors-header {
+  grid-area: honors-header;
+}
+#honors {
+  grid-area: honors;
+}
+
+#affiliations-header {
+  grid-area: affiliations-header;
+}
+
+#affiliations {
+  grid-area: affiliations;
 }
