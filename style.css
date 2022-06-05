@@ -1,14 +1,26 @@
-
-  .container {  grid-template-columns: 0.25fr .75fr;
-    grid-template-rows: 1fr 0.5fr 1.5fr;
+.container { 
+    grid-template-columns: 0.25fr .75fr;
+    grid-template-rows: 20% repeat(10%,8);
     grid-template-areas:
-      "Picture"
-      "Experience-header virgin-atlantic-airlines1"
-      "Experience-header virgin-atlantic-airlines2"
+      "picture personal-information"
+      "experience-header virgin-atlantic-airlines1"
+      "experience-header virgin-atlantic-airlines2"
       "education-header virgin-atlantic-training-acadamy"
       "education-header railegh-high"
       "additional-qualifictions-header additional-qualification"
       "honors-header honors"
-      "affiliations-head affiliations"}
+      "affiliations-head affiliations"
+      "... ..."
+}
 
-      
+.picture {
+  grid-area: picture;
+}
+
+.personal-information {
+  grid-area: personal-information;
+}
+
+.information-labels {
+  grid-area: information-labels;
+}
