@@ -1,122 +1,14 @@
-.container {  display: grid;
-    grid-template-columns: 0.6fr 1.4fr;
+
+  .container {  grid-template-columns: 0.25fr .75fr;
     grid-template-rows: 1fr 0.5fr 1.5fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
     grid-template-areas:
-      "Picture personal-information"
-      "Information-labels Virgin-atlantic-Airlines"
-      "Information-labels VAA-Trainee";
-      justify-items: stretch;
-      align-items: start;
-      border-left: 8pt solid rgb(245, 103, 9);
-  }
-  
-  .Picture {  display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1.5fr 0.5fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "."
-      "personal-description";
-    grid-area: Picture;
-    background-color: rgb(241, 232, 224);
-  }
-  
-  .personal-description { grid-area: personal-description; }
-  
-  .personal-information {  display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: .5fr .5fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "."
-      "personal-discription";
-    grid-area: personal-information;
-    align-items: stretch;
-    background-color: rgb(241, 232, 224);
-    
-  }
-  
-  .personal-discription { grid-area: personal-discription; }
-  
-  .Information-labels {  display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1.2fr 0.6fr 0.7fr 0.6fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "."
-      "Education-"
-      "ADDITIONAL-QUALIFICATIONS"
-      "HONORS"
-      "AFFILIATIONS";
-    grid-area: Information-labels;
-  }
-  
-  .Education- { grid-area: Education-; }
-  
-  .ADDITIONAL-QUALIFICATIONS { grid-area: ADDITIONAL-QUALIFICATIONS; }
-  
-  .HONORS { grid-area: HONORS; }
-  
-  .AFFILIATIONS { grid-area: AFFILIATIONS; }
-  
-  .Virgin-atlantic-Airlines { grid-area: Virgin-atlantic-Airlines; }
-  
-  .VAA-Trainee {  display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.565fr 0.9fr 1.5fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "."
-      "VA-Training-Acadamy"
-      "Raleigh-High";
-    grid-area: VAA-Trainee;
-  }
-  
-  .VA-Training-Acadamy { grid-area: VA-Training-Acadamy; }
-  
-  .Raleigh-High {  display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.97fr 1fr .9fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "."
-      "honors"
-      "affiliations";
-    grid-area: Raleigh-High;
-  }
-  
-  .honors { grid-area: honors; }
-  
-  .affiliations { grid-area: affiliations; }
-  
+      "Picture"
+      "Experience-header virgin-atlantic-airlines1"
+      "Experience-header virgin-atlantic-airlines2"
+      "education-header virgin-atlantic-training-acadamy"
+      "education-header railegh-high"
+      "additional-qualifictions-header additional-qualification"
+      "honors-header honors"
+      "affiliations-head affiliations"}
 
-  .p1 {
-    margin-top: 2pt;
-    margin-bottom: 2pt;
-}
-   h1 {
-    margin-bottom: 3pt;
- }
-   .p2 {
-    margin-top: 5pt;
-    margin-bottom: 5pt;
-    font-style: italic;
-    text-decoration-line: underline overline;
-    text-decoration: gray dotted;
-}
-   img {
-    width: 80%;
-    border: 3pt solid rgb(245, 103, 9);
-}
-
-   .p4  {
-       font: bolder;
-       text-decoration-color: rgb(245, 103, 9);
-   }
+      
