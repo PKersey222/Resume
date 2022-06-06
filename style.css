@@ -116,8 +116,6 @@
   grid-column: 2/2;
   grid-row: 4/5;
 }
-#discription {
-  grid-row: 1/2;
-  grid-column:2/2;
+.description {
   font-style: italic;
 }
